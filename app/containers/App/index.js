@@ -12,6 +12,16 @@
  */
 
 import React from 'react';
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+import 'uikit/dist/css/uikit.min.css';
+
+
+import Header from '../../components/Header/index';
+import Footer from '../../components/Footer/index';
+
+// loads the Icon plugin
+UIkit.use(Icons);
 
 export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
@@ -22,8 +32,11 @@ export default class App extends React.PureComponent { // eslint-disable-line re
   render() {
     return (
       <div>
+        <Header />
         {React.Children.toArray(this.props.children)}
+        <Footer />
       </div>
     );
   }
 }
+

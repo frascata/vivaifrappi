@@ -1,10 +1,10 @@
 {
-  "name": "react-boilerplate",
-  "version": "3.4.0",
+  "name": "vivaifrappi",
+  "version": "0.0.1",
   "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "git://github.com/frascata/vivaifrappi.git"
   },
   "engines": {
     "npm": ">=3",
@@ -48,7 +48,6 @@
   "lint-staged": {
     "*.js": "lint:eslint"
   },
-  "pre-commit": "lint:staged",
   "babel": {
     "presets": [
       [
@@ -179,7 +178,9 @@
     "include": [
       "core-js",
       "lodash",
-      "eventsource-polyfill"
+      "eventsource-polyfill",
+      "jquery",
+      "uikit"
     ]
   },
   "jest": {
@@ -220,6 +221,7 @@
     "intl": "1.2.5",
     "invariant": "2.2.2",
     "ip": "1.1.4",
+    "jquery": "^3.2.1",
     "lodash": "4.17.2",
     "minimist": "1.2.0",
     "react": "15.4.1",
@@ -236,6 +238,7 @@
     "reselect": "2.5.4",
     "sanitize.css": "4.1.0",
     "styled-components": "1.1.2",
+    "uikit": "^3.0.0-beta.22",
     "warning": "3.0.0",
     "whatwg-fetch": "2.0.1"
   },
