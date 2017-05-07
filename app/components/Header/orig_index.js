@@ -7,7 +7,7 @@
 import React from 'react';
 // import styled from 'styled-components';
 
-import {FormattedMessage} from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import A from './A';
 import Img from './Img';

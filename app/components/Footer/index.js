@@ -20,7 +20,7 @@ import messages from './messages';
 class Footer extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div className="uk-section uk-section-xsmall">
+      <div>
         <Main>
           <div className="uk-container">
             <div data-uk-grid>

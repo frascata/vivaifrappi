@@ -16,7 +16,7 @@ const Img = styled.img`
 function Banner(props) {
   return (
     <div>
-      <Img src={props.image}/>
+      <Img src={props.image} />
     </div>
   );
 }

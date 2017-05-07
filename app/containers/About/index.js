@@ -4,16 +4,16 @@
  *
  */
 
-import React, {PropTypes} from 'react';
-import {connect} from 'react-redux';
+import React, { PropTypes } from 'react';
+import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
-import {FormattedMessage} from 'react-intl';
-import {createStructuredSelector} from 'reselect';
+import { FormattedMessage } from 'react-intl';
+import { createStructuredSelector } from 'reselect';
 import makeSelectAbout from './selectors';
 import messages from './messages';
 import H1 from '../../components/H1/index';
 import Text from '../../components/Text/index';
-import Image from './banner.jpg'
+import Image from './banner.jpg';
 import Banner from '../../components/Banner/index';
 
 export class About extends React.Component { // eslint-disable-line react/prefer-stateless-function
