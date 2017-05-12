@@ -8,13 +8,10 @@ import React from 'react';
 
 import Main from './Main';
 import SubFooter from './SubFooter';
-import Logo from './logo.png';
+// import Logo from './logo.png';
 
 import { A } from './A';
 import { FacebookA, GoogolePlusA, PinterestA } from './SocialA';
-
-// import { FormattedMessage } from 'react-intl';
-// import messages from './messages';
 
 class Footer extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -61,7 +58,7 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
 
               <div className="uk-width-1-3@m">
                 <div className="uk-text-right">
-                  <img src={Logo} role="presentation"/>
+                  {/*<img src={Logo} role="presentation"/>*/}
                 </div>
               </div>
             </div>
