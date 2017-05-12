@@ -12,7 +12,6 @@ import messages from './messages';
 import A from './A';
 import Img from './Img';
 import NavBar from './NavBar';
-import Banner from './banner.jpg';
 import HeaderLink from './HeaderLink';
 
 import Logo from './logo.jpg';

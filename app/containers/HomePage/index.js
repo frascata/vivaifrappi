@@ -14,7 +14,6 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 
 import Text from '../../components/Text/index';
-import Video from './intro_video.mp4';
 
 import SectionServices from './SectionServices';
 import SectionWhy from './SectionWhy';
@@ -25,9 +24,9 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
     return (
       <div>
         <div className="uk-cover-container" data-uk-height-viewport id="video">
-          <video data-uk-cover autoPlay loop muted>
-            <source src={Video} type="video/mp4"/>
-          </video>
+          <iframe data-uk-cover
+                  src="https://www.youtube.com/embed/hz0DchkLqm8?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;"
+                  frameBorder="0"/>
         </div>
         <div className="uk-section primary-wrapper" id="section1">
           <div className="uk-container">

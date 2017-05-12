@@ -5,7 +5,7 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import H1 from '../../components/H1/index';
 
-import Home2 from './images/home_02.jpg';
+import Home2 from './images/home_02-min.jpg';
 import ValDiChiana from './images/val_di_chiana.jpg';
 import CastiglionFiorentino from './images/castiglion_fiorentino.jpg';
 import Tradizione from './images/tradizione.jpg';
