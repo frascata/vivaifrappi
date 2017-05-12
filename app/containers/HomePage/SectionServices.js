@@ -6,10 +6,10 @@ import messages from './messages';
 import H1 from '../../components/H1/index';
 import Text from '../../components/Text/index';
 import Home1 from './images/home_01-min.jpg';
-import Produzione from './images/produzione.png';
-import Progettazione from './images/progettazione.png';
-import Realizzazione from './images/realizzazione.png';
-import Manutenzione from './images/manutenzione.png';
+import Produzione from './images/produzione.jpg';
+import Progettazione from './images/progettazione.jpg';
+import Realizzazione from './images/realizzazione.jpg';
+import Manutenzione from './images/manutenzione.jpg';
 
 
 const Div = styled.div`
