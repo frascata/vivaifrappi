@@ -2,6 +2,15 @@ import {injectGlobal} from 'styled-components';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
+.color-primary {
+  color: #006634;
+}
+
+.primary-wrapper {
+  background: #006634;
+  color: white;
+}
+
 .default-wrapper {
   background: #fdfdfd;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);

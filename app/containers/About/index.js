@@ -26,7 +26,7 @@ export class About extends React.Component { // eslint-disable-line react/prefer
             {name: 'description', content: 'Description of About'},
           ]}
         />
-        <Banner image={Image} />
+        <Banner src={Image} alt={'Vivaio'}/>
         <div className="uk-section">
           <div className="uk-container">
             <H1>

@@ -34,7 +34,7 @@ export default function createRoutes(store) {
         importModules.catch(errorLoading);
       },
     }, {
-      path: '/about',
+      path: '/chi-siamo',
       name: 'about',
       getComponent(nextState, cb) {
         const importModules = Promise.all([

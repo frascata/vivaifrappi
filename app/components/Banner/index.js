@@ -1,10 +1,4 @@
-/**
- *
- * Banner
- *
- */
-
-import React, {PropTypes} from 'react';
+import React, { PropTypes } from 'react';
 import styled from 'styled-components';
 
 const Img = styled.img`
@@ -16,13 +10,18 @@ const Img = styled.img`
 function Banner(props) {
   return (
     <div>
-      <Img src={props.image} />
+      <Img className={props.className} src={props.src} alt={props.alt}/>
     </div>
   );
 }
 
 Banner.propTypes = {
-  image: PropTypes.string.isRequired,
+  src: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+  ]).isRequired,
+  alt: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };
 
 export default Banner;
