@@ -15,9 +15,13 @@ export class About extends React.Component { // eslint-disable-line react/prefer
     return (
       <div>
         <Helmet
-          title="About"
+          title="Chi siamo"
           meta={[
-            {name: 'description', content: 'Description of About'},
+            {
+              name: 'description', content: `
+            Il corpo centrale dell’azienda si trova nella pianura fertile della Val di Chiana a pochi chilometri dal centro di Castiglion Fiorentino, in una zona dedicata al settore florovivaistico da oltre 80 anni.
+            `,
+            },
           ]}
         />
         <Banner src={Image} alt={'Vivaio'}/>

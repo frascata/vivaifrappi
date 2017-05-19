@@ -12,6 +12,7 @@
   "app.components.NotFoundPage.header": "",
   "app.containers.About.content": "",
   "app.containers.About.title": "",
+  "app.containers.Contacts.header": "",
   "app.containers.HomePage.mainContent": "",
   "app.containers.HomePage.servicesContent": "",
   "app.containers.HomePage.servicesMainteinance": "",
@@ -31,5 +32,7 @@
   "app.containers.HomePage.whyTitle3": "",
   "app.containers.HomePage.whyTitle4": "",
   "app.containers.HomePage.whyTitle5": "",
-  "app.containers.HomePage.whyTitle6": ""
+  "app.containers.HomePage.whyTitle6": "",
+  "app.containers.NurseryPlant.content": "",
+  "app.containers.NurseryPlant.title": ""
 }

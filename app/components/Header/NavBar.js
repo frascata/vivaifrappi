@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export default styled.nav`
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.075);
+  
   &.uk-navbar-container {
     text-align: center;
     background-color: white;

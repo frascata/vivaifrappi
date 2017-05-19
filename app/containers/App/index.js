@@ -12,6 +12,7 @@
  */
 
 import React from 'react';
+import styled from 'styled-components';
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 
@@ -23,6 +24,10 @@ import Footer from '../../components/Footer/index';
 // loads the Icon plugin
 UIkit.use(Icons);
 
+
+const Main = styled.div`
+`;
+
 export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
   static propTypes = {
@@ -33,7 +38,9 @@ export default class App extends React.PureComponent { // eslint-disable-line re
     return (
       <div>
         <Header />
+        <Main>
         {React.Children.toArray(this.props.children)}
+        </Main>
         <Footer />
       </div>
     );

@@ -54,6 +54,46 @@ export default function createRoutes(store) {
         importModules.catch(errorLoading);
       },
     }, {
+      path: '/vivaio',
+      name: 'nurseryPlant',
+      getComponent(nextState, cb) {
+        const importModules = Promise.all([
+          import('containers/NurseryPlant/reducer'),
+          import('containers/NurseryPlant/sagas'),
+          import('containers/NurseryPlant'),
+        ]);
+
+        const renderRoute = loadModule(cb);
+
+        importModules.then(([reducer, sagas, component]) => {
+          injectReducer('nurseryPlant', reducer.default);
+          injectSagas(sagas.default);
+          renderRoute(component);
+        });
+
+        importModules.catch(errorLoading);
+      },
+    }, {
+      path: '/contatti',
+      name: 'contacts',
+      getComponent(nextState, cb) {
+        const importModules = Promise.all([
+          import('containers/Contacts/reducer'),
+          import('containers/Contacts/sagas'),
+          import('containers/Contacts'),
+        ]);
+
+        const renderRoute = loadModule(cb);
+
+        importModules.then(([reducer, sagas, component]) => {
+          injectReducer('contacts', reducer.default);
+          injectSagas(sagas.default);
+          renderRoute(component);
+        });
+
+        importModules.catch(errorLoading);
+      },
+    }, {
       path: '*',
       name: 'notfound',
       getComponent(nextState, cb) {

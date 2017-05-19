@@ -8,9 +8,16 @@ const Img = styled.img`
 `;
 
 function Banner(props) {
+  const bannerStyle= {
+    backgroundImage: `url(${props.src})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: `${props.position}`,
+    height: '500px'
+  };
+
   return (
-    <div>
-      <Img className={props.className} src={props.src} alt={props.alt}/>
+    <div style={bannerStyle} >
     </div>
   );
 }
@@ -20,8 +27,11 @@ Banner.propTypes = {
     PropTypes.string,
     PropTypes.object,
   ]).isRequired,
-  alt: PropTypes.string.isRequired,
-  className: PropTypes.string,
+  position: PropTypes.string,
+};
+
+Banner.defaultProps = {
+  position: 'center center'
 };
 
 export default Banner;
