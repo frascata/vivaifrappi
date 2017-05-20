@@ -94,6 +94,46 @@ export default function createRoutes(store) {
         importModules.catch(errorLoading);
       },
     }, {
+      path: '/servizi/produzione',
+      name: 'production',
+      getComponent(nextState, cb) {
+        const importModules = Promise.all([
+          import('containers/Production/reducer'),
+          import('containers/Production/sagas'),
+          import('containers/Production'),
+        ]);
+
+        const renderRoute = loadModule(cb);
+
+        importModules.then(([reducer, sagas, component]) => {
+          injectReducer('production', reducer.default);
+          injectSagas(sagas.default);
+          renderRoute(component);
+        });
+
+        importModules.catch(errorLoading);
+      },
+    }, {
+      path: '/servizi/manutenzione',
+      name: 'mainteinance',
+      getComponent(nextState, cb) {
+        const importModules = Promise.all([
+          import('containers/Mainteinance/reducer'),
+          import('containers/Mainteinance/sagas'),
+          import('containers/Mainteinance'),
+        ]);
+
+        const renderRoute = loadModule(cb);
+
+        importModules.then(([reducer, sagas, component]) => {
+          injectReducer('mainteinance', reducer.default);
+          injectSagas(sagas.default);
+          renderRoute(component);
+        });
+
+        importModules.catch(errorLoading);
+      },
+    }, {
       path: '*',
       name: 'notfound',
       getComponent(nextState, cb) {

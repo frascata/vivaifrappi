@@ -22,16 +22,22 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
           <div className="uk-container">
             <div data-uk-grid>
               <div className="uk-width-1-3@m">
-                <strong>
-                  Az. Agr. Vivai Piante Frappi Gino & Figli S.S Società Agricola
-                </strong>
-                <br />
-                Loc. Montecchio Vesponi 249/c<br />
-                52043 CASTIGLION FIORENTINO (AR)<br />
+                <div className="uk-text-left">
+                  <strong>
+                    Az. Agr. Vivai Piante Frappi Gino & Figli S.S Società
+                    Agricola
+                  </strong>
+                  <br />
+                  Loc. Montecchio Vesponi 249/c<br />
+                  52043 CASTIGLION FIORENTINO (AR)<br />
+                </div>
               </div>
 
               <div className="uk-width-1-3@m">
-                <div className="uk-text-center">
+              </div>
+
+              <div className="uk-width-1-3@m">
+                <div className="uk-text-right">
                   Tel. 0575 651102
                   <br />
                   P.I. 01265950517
@@ -39,7 +45,6 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
                   E-mail. <A href="mailto:info@vivaifrappi.com">info@vivaifrappi.com</A>
                   <br />
                   <div className="social">
-                    Social.
                     <FacebookA
                       href="https://www.facebook.com/pages/Frappi-Gino-Figli-Vivai/288617147894688?fref=ts"
                       data-uk-icon="icon: facebook"
@@ -53,12 +58,6 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
                       data-uk-icon="icon: pinterest"
                     />
                   </div>
-                </div>
-              </div>
-
-              <div className="uk-width-1-3@m">
-                <div className="uk-text-right">
-                  {/*<img src={Logo} role="presentation"/>*/}
                 </div>
               </div>
             </div>

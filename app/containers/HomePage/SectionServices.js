@@ -23,7 +23,7 @@ function SectionServices() {
         <img src={Home1} alt="" data-uk-cover/>
       </div>
 
-      <div className="uk-section light-wrapper" id="section2">
+      <div className="uk-section" id="section2">
         <div className="uk-container">
           <H1>
             <FormattedMessage {...messages.servicesTitle} />

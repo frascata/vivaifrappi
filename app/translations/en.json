@@ -33,6 +33,21 @@
   "app.containers.HomePage.whyTitle4": "",
   "app.containers.HomePage.whyTitle5": "",
   "app.containers.HomePage.whyTitle6": "",
+  "app.containers.Mainteinance.content": "",
+  "app.containers.Mainteinance.title": "",
   "app.containers.NurseryPlant.content": "",
-  "app.containers.NurseryPlant.title": ""
+  "app.containers.NurseryPlant.title": "",
+  "app.containers.Production.sectionFieldPlantContent1": "",
+  "app.containers.Production.sectionFieldPlantContent2": "",
+  "app.containers.Production.sectionFieldPlantContentLi2": "",
+  "app.containers.Production.sectionFieldPlantContentLi3": "",
+  "app.containers.Production.sectionFieldPlantContentLi4": "",
+  "app.containers.Production.sectionFieldPlantContentLi5": "",
+  "app.containers.Production.sectionFieldPlantContentLi6": "",
+  "app.containers.Production.sectionFieldPlantContentLi7": "",
+  "app.containers.Production.sectionFieldPlantTitle": "",
+  "app.containers.Production.sectionFieldPotContent": "",
+  "app.containers.Production.sectionFieldPotTitle": "",
+  "app.containers.Production.sectionProductionContent": "",
+  "app.containers.Production.sectionProductionTitle": ""
 }

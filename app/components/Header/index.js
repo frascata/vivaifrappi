@@ -22,10 +22,12 @@ class Header extends React.PureComponent { // eslint-disable-line react/prefer-s
       <NavBar className="uk-navbar-container" data-uk-navbar
               data-uk-sticky="top: 0">
         <div className="uk-navbar-left">
-          <a className="uk-navbar-item uk-logo" href="#">
+          <a className="uk-navbar-item uk-logo" href="/">
             <Img src={Logo} alt={'Vivaifrappi'}/>
           </a>
-          <ul className="uk-navbar-nav uk-navbar-center">
+        </div>
+        <div className="uk-navbar-right">
+          <ul className="uk-navbar-nav">
             <li>
               <HeaderLink to="/" activeClassName="active">
                 <FormattedMessage {...messages.home}  />
@@ -42,24 +44,26 @@ class Header extends React.PureComponent { // eslint-disable-line react/prefer-s
               </HeaderLink>
             </li>
             <li>
-              <a href="#">
+              <a>
                 <FormattedMessage {...messages.services} />
+                &nbsp;
+                <span data-uk-icon="icon: chevron-down; ratio:0.8" />
               </a>
               <div className="uk-navbar-dropdown">
                 <ul className="uk-nav uk-navbar-dropdown-nav">
-                  <li><HeaderLink to="/services/produzione"
+                  <li><HeaderLink to="/servizi/produzione"
                                   activeClassName="active">
                     <FormattedMessage {...messages.production} />
                   </HeaderLink></li>
-                  <li><HeaderLink to="/services/progettazione"
+                  <li><HeaderLink to="/servizi/progettazione"
                                   activeClassName="active">
                     <FormattedMessage {...messages.planning} />
                   </HeaderLink></li>
-                  <li><HeaderLink to="/services/realizzazione"
+                  <li><HeaderLink to="/servizi/realizzazione"
                                   activeClassName="active">
                     <FormattedMessage {...messages.realization} />
                   </HeaderLink></li>
-                  <li><HeaderLink to="/services/manutenzione"
+                  <li><HeaderLink to="/servizi/manutenzione"
                                   activeClassName="active">
                     <FormattedMessage {...messages.maintenance} />
                   </HeaderLink></li>

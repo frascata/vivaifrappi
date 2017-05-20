@@ -33,6 +33,21 @@
   "app.containers.HomePage.whyTitle4": "Collaborazione",
   "app.containers.HomePage.whyTitle5": "Qualità",
   "app.containers.HomePage.whyTitle6": "Innovazione",
+  "app.containers.Mainteinance.content": "La salute, la robustezza e l’espressione del giardino è frutto di un’accurata progettazione ma soprattutto di una manutenzione attenta, tempestiva e programmata. L’Azienda Frappi Gino e Figli è in grado di offrire, grazie ad una esperienza di 30 anni e ai macchinari efficienti e all’avanguardia, un servizio dinamico e puntuale per una serie di prestazioni: potautura di alberi e arbusti, trapianti, trattamenti fitosanitari e quanto altro sia necessario al rigoglio e alla salute del giardino.",
+  "app.containers.Mainteinance.title": "Manutenzione",
   "app.containers.NurseryPlant.content": "Il vivaio offre una vasta gamma di varietà di specie arboree e arbustive, caducifoglie e sempreverdi, soprattutto autoctone o comunque naturalizzate, allevate in pieno campo per poi essere trasferite in vaso prima della distribuzione. Tutte le piante presenti in vivaio sono il risultato di una lunga e attente ricerca che si basa sul connubio tra tradizione vivaistica e innovazione delle tecniche e dei materiali utilizzati, partendo comunque da sementi certificate o da piante madri accuratamente selezionate.",
-  "app.containers.NurseryPlant.title": "Il vivaio"
+  "app.containers.NurseryPlant.title": "Il vivaio",
+  "app.containers.Production.sectionFieldPlantContent1": "Buona parte della superficie aziendale è destinata alla produzione di alberi ed arbusti in pieno campo. Molteplici sono le regole che vengono seguite per garantire alla nostra clientela una vasta gamma di piante robuste, sane e belle:",
+  "app.containers.Production.sectionFieldPlantContent2": "Trapianti costanti per consentire alla pianta un corretto sviluppo e aumentarne la robustezza. Queste operazioni vengono effettuate con macchinari all’avanguardia in grado di creare zolle compatte riducendo lo stress radicale.",
+  "app.containers.Production.sectionFieldPlantContentLi2": "Riproduzione gamica e agamica direttamente in vivaio per garantire qualità da toccare con mano fin dai primi anni della pianta;",
+  "app.containers.Production.sectionFieldPlantContentLi3": "Sesti di impianto sempre congrui ad uno sviluppo equilibrato della chioma e dell’apparato radicale;",
+  "app.containers.Production.sectionFieldPlantContentLi4": "Potature di formazione e di contenimento;",
+  "app.containers.Production.sectionFieldPlantContentLi5": "Lavorazione meccanica del terreno per ridurre la competizione con le specie infestanti e per una migliore capacità di ritenzione idrica del terreno;",
+  "app.containers.Production.sectionFieldPlantContentLi6": "Trattamenti fitosanitari per la lotta alle malattie delle piante;",
+  "app.containers.Production.sectionFieldPlantContentLi7": "Trapianti costanti per consentire alla pianta un corretto sviluppo e aumentarne la robustezza.",
+  "app.containers.Production.sectionFieldPlantTitle": "Allevamento in piena terra",
+  "app.containers.Production.sectionFieldPotContent": "Una piccola parte del vivaio, destinata ad un importante incremento, è quella rappresentata dalle coltivazioni in contenitore. Consapevole che le piante in vaso rappresentano una maggiore sicurezza per l’attecchimento e una migliore collocazione sul mercato, l’Azienda sta predisponendo una vasta area in corrispondenza del cuore aziendale che sarà dedicata all’allestimento di uno showroom all’aperto che ospiterà la migliore scelta della produzione, dagli esemplari di medie e grandi dimensioni fino agli esemplari di pronto effetto.",
+  "app.containers.Production.sectionFieldPotTitle": "Allevamento delle piante in contenitore",
+  "app.containers.Production.sectionProductionContent": "La totalità delle specie allevate in piena terra provengono da sistemi di  riproduzione gamica e agamica che vengono seguiti e sviluppati direttamente in vivaio. Circa 1000 mq di superficie serricola sono a disposizione per la riproduzione delle piante attraverso sistemi tradizionali di moltiplicazione per talea, margotta e per seme. Grazie ad un’accurata scelta dellle piante madri e delle sementi e grazie all’utilizzo di tecniche innovative di coltivazione, le giovani piante vengono mantenute all’interno delle aree coperte per subire nel corso dei primi anni numerosi trapianti e innesti prima di essere destinate al pieno campo o alla vendita diretta in contenitore.",
+  "app.containers.Production.sectionProductionTitle": "Riproduzione del materiale vegetale"
 }
