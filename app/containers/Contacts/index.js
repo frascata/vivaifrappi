@@ -1,14 +1,10 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
-import { FormattedMessage } from 'react-intl';
 import { createStructuredSelector } from 'reselect';
 import makeSelectContacts from './selectors';
-import messages from './messages';
 import Banner from '../../components/Banner/index';
-import H1 from '../../components/H1/index';
-import Text from '../../components/Text/index';
-import Image from './banner.jpg';
+import Image from './banner-min.jpg';
 import Logo from './logo.jpg';
 
 export class Contacts extends React.Component { // eslint-disable-line react/prefer-stateless-function
