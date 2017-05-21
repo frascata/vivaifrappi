@@ -1,12 +1,6 @@
 import React, { PropTypes } from 'react';
 import styled from 'styled-components';
 
-const Img = styled.img`
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-`;
-
 function Banner(props) {
   const bannerStyle= {
     backgroundImage: `url(${props.src})`,

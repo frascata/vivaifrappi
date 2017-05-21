@@ -20,10 +20,10 @@ import 'uikit/dist/css/uikit.min.css';
 
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
+import Menu from '../../components/Header/Menu';
 
 // loads the Icon plugin
 UIkit.use(Icons);
-
 
 const Main = styled.div`
 `;
@@ -37,11 +37,25 @@ export default class App extends React.PureComponent { // eslint-disable-line re
   render() {
     return (
       <div>
-        <Header />
-        <Main>
-        {React.Children.toArray(this.props.children)}
-        </Main>
-        <Footer />
+        <div className="uk-offcanvas-content">
+          <Header />
+          <Main>
+            {React.Children.toArray(this.props.children)}
+          </Main>
+          <Footer />
+
+          <button className="uk-button uk-button-default uk-margin-small-right"
+                  type="button" data-uk-toggle="target: #offcanvas-nav-primary">
+            Primary Nav
+          </button>
+
+          <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
+            <div className="uk-offcanvas-bar uk-flex uk-flex-column">
+              <Menu mobile={true} />
+            </div>
+          </div>
+
+        </div>
       </div>
     );
   }
