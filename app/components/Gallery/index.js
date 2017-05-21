@@ -1,5 +1,10 @@
 import React, { Component, PropTypes } from 'react';
 import Lightbox from 'react-images';
+import styled from 'styled-components';
+
+const Div = styled.div`
+  cursor: pointer;
+`;
 
 class Gallery extends Component {
   constructor() {
@@ -65,25 +70,27 @@ class Gallery extends Component {
     const gallery = images.map((obj, i) => {
       return (
         <div key={i}>
-          <div className="uk-card uk-card-default uk-card-hover uk-text-center" >
-            <div className="uk-inline-clip uk-transition-toggle uk-light"
+          <div className="uk-card uk-card-default uk-card-hover uk-text-center">
+            <Div className="uk-inline-clip uk-transition-toggle uk-light"
                  onClick={(e) => this.openLightbox(i, e)}>
               <img src={obj.thumbnail} alt=""/>
               <div
                 className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                 <p className="uk-h4 uk-margin-remove">
-                  <span data-uk-icon="icon: search; ratio: 1.5"
+                  <span data-uk-icon="icon: plus; ratio: 1.5"
                         className="color-primary"/>
                 </p>
               </div>
-            </div>
+            </Div>
           </div>
         </div>
       );
     });
 
     return (
-      <div className="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-grid-medium" data-uk-grid>
+      <div
+        className="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-grid-medium"
+        data-uk-grid>
         {gallery}
       </div>
     );

@@ -42,7 +42,7 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
                   <br />
                   P.I. 01265950517
                   <br />
-                  E-mail. <A href="mailto:info@vivaifrappi.com">info@vivaifrappi.com</A>
+                  <A href="mailto:info@vivaifrappi.com">info@vivaifrappi.com</A>
                   <br />
                   <div className="social">
                     <FacebookA

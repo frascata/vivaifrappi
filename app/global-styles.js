@@ -2,6 +2,9 @@ import {injectGlobal} from 'styled-components';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
+body {
+  background: #fdfdfd;
+}
 
 .color-primary {
   color: #006634;

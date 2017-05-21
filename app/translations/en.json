@@ -37,6 +37,12 @@
   "app.containers.Mainteinance.title": "",
   "app.containers.NurseryPlant.content": "",
   "app.containers.NurseryPlant.title": "",
+  "app.containers.Planning.blContent": "",
+  "app.containers.Planning.content": "",
+  "app.containers.Planning.cpContent": "",
+  "app.containers.Planning.dsContent": "",
+  "app.containers.Planning.fgContent": "",
+  "app.containers.Planning.quote": "",
   "app.containers.Production.sectionFieldPlantContent1": "",
   "app.containers.Production.sectionFieldPlantContent2": "",
   "app.containers.Production.sectionFieldPlantContentLi2": "",
@@ -49,5 +55,7 @@
   "app.containers.Production.sectionFieldPotContent": "",
   "app.containers.Production.sectionFieldPotTitle": "",
   "app.containers.Production.sectionProductionContent": "",
-  "app.containers.Production.sectionProductionTitle": ""
+  "app.containers.Production.sectionProductionTitle": "",
+  "app.containers.Realization.content": "",
+  "app.containers.Realization.title": ""
 }
