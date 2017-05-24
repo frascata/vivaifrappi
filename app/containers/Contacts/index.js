@@ -27,7 +27,8 @@ export class Contacts extends React.Component { // eslint-disable-line react/pre
               <div className="uk-card-header">
                 <div className="uk-grid-small uk-flex-middle" data-uk-grid>
                   <div className="uk-width-auto">
-                    <img className="uk-border-circle" width="40" height="40" alt=""
+                    <img className="uk-border-circle" width="40" height="40"
+                         alt=""
                          src={Logo}/>
                   </div>
                   <div className="uk-width-expand">
@@ -49,10 +50,11 @@ export class Contacts extends React.Component { // eslint-disable-line react/pre
               </div>
               <div className="uk-card-body">
                 <div className="uk-cover-container">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23219.37399222143!2d11.919202!3d43.326363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6e6c109860a0ebc!2sVivai+Piante+Frappi+Gino+%26+Figli!5e0!3m2!1sit!2sit!4v1495294262860"
-                          width="100%" height="600"
-                          frameBorder="0"
-                          allowFullScreen
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23219.37399222143!2d11.919202!3d43.326363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6e6c109860a0ebc!2sVivai+Piante+Frappi+Gino+%26+Figli!5e0!3m2!1sit!2sit!4v1495294262860"
+                    width="100%" height="600"
+                    frameBorder="0"
+                    allowFullScreen
                   />
                 </div>
               </div>

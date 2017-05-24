@@ -1,15 +1,7 @@
-/**
- *
- * Footer
- *
- */
-
 import React from 'react';
 
 import Main from './Main';
 import SubFooter from './SubFooter';
-// import Logo from './logo.png';
-
 import { A } from './A';
 import { FacebookA, GoogolePlusA, PinterestA } from './SocialA';
 
@@ -66,9 +58,9 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
         <SubFooter>
           <div className="uk-container">
             <div className="uk-text-center">
-              © 2014 Creato da <A
-              href="https://it.linkedin.com/in/francescoscatassa/">
-              Francesco Scatassa</A>.
+              © 2014 Creato da
+              <A href="https://it.linkedin.com/in/francescoscatassa/">Francesco
+                Scatassa</A>.
               Tutti i diritti sono riservati.
             </div>
           </div>
