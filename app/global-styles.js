@@ -1,30 +1,38 @@
-import { injectGlobal } from 'styled-components';
+import {injectGlobal} from 'styled-components';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-  }
+body {
+  background: #fdfdfd;
+}
 
-  body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+.color-primary {
+  color: #006634;
+}
 
-  body.fontLoaded {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+.primary-wrapper {
+  background: #006634;
+  color: white;
+}
 
-  #app {
-    background-color: #fafafa;
-    min-height: 100%;
-    min-width: 100%;
-  }
+.default-wrapper {
+  background: #fdfdfd;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+  
+.dark-wrapper {
+  background: #f5f5f5;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
 
-  p,
-  label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.5em;
-  }
+.light-wrapper {
+  background: #fafafa;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.black-wrapper {
+  background: #393939;
+  color: #d2d2d2;
+  display: block;
+}
 `;
