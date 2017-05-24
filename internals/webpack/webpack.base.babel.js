@@ -37,7 +37,7 @@ module.exports = (options) => ({
           loader: 'image-webpack-loader',
           query: {
             mozjpeg: {
-              progressive: true,
+              progressive: false,
             },
             gifsicle: {
               interlaced: false,
