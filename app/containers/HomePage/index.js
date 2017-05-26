@@ -25,7 +25,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
     return (
       <div>
         <Helmet
-          title="Vivaio Frappi Gino & Figli"
+          title="Vivai Frappi Gino & Figli"
           meta={[
             {
               name: 'description', content: `

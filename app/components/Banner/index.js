@@ -1,17 +1,16 @@
 import React, { PropTypes } from 'react';
-import styled from 'styled-components';
 
 function Banner(props) {
-  const bannerStyle= {
+  const bannerStyle = {
     backgroundImage: `url(${props.src})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: `${props.position}`,
-    height: '500px'
+    height: '500px',
   };
 
   return (
-    <div style={bannerStyle} >
+    <div style={bannerStyle}>
     </div>
   );
 }
@@ -25,7 +24,7 @@ Banner.propTypes = {
 };
 
 Banner.defaultProps = {
-  position: 'center center'
+  position: 'center center',
 };
 
 export default Banner;

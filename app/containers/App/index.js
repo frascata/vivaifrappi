@@ -43,12 +43,6 @@ export default class App extends React.PureComponent { // eslint-disable-line re
             {React.Children.toArray(this.props.children)}
           </Main>
           <Footer />
-
-          <button className="uk-button uk-button-default uk-margin-small-right"
-                  type="button" data-uk-toggle="target: #offcanvas-nav-primary">
-            Primary Nav
-          </button>
-
           <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
             <div className="uk-offcanvas-bar uk-flex uk-flex-column">
               <Menu mobile={true} />
