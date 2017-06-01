@@ -7,8 +7,8 @@
     "url": "git://github.com/frascata/vivaifrappi.git"
   },
   "engines": {
-    "npm": ">=3",
-    "node": "7.7.3"
+    "npm": "3.10.x",
+    "node": "6.10.3"
   },
   "author": "Francesco Scatassa",
   "license": "MIT",
@@ -150,7 +150,7 @@
       "react/jsx-no-target-blank": 0,
       "react/require-extension": 0,
       "react/self-closing-comp": 0,
-      "react/jsx-space-before-closing" : 0,
+      "react/jsx-space-before-closing": 0,
       "redux-saga/no-yield-in-race": 2,
       "redux-saga/yield-effects": 2,
       "require-yield": 0,
@@ -277,7 +277,7 @@
     "file-loader": "0.9.0",
     "html-loader": "0.4.4",
     "html-webpack-plugin": "2.24.1",
-    "image-webpack-loader": "3.3.1",
+    "image-webpack-loader": "^3.3.1",
     "imports-loader": "0.6.5",
     "jest-cli": "18.0.0",
     "lint-staged": "3.2.1",

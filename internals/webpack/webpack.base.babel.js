@@ -39,11 +39,11 @@ module.exports = (options) => ({
             mozjpeg: {
               progressive: true,
             },
-            gifsicle: {
-              interlaced: false,
-            },
             optipng: {
               optimizationLevel: 7,
+            },
+            gifsicle: {
+              interlaced: false,
             },
             pngquant: {
               quality: '65-90',
